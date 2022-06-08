@@ -1,5 +1,5 @@
 <div class="container-fluid py-0" style="background: #eb1d21;">
-    <div class="container py-5">
+    <div class="container py-3">
         <div class="row align-items-center py-4">
             <div class="col-md-6 text-center text-md-left">
                 <h1 class="mb-4 mb-md-0 text-white text-uppercase">Produk Kitchen</h1>
@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-12 text-center mb-2">
                 <ul class="list-inline mb-4" id="portfolio-flters">
-                   <!--  <li class="btn btn-outline-primary m-1 active" id="all"  data-filter="*">All</li> -->
+                 <!--  <li class="btn btn-outline-primary m-1 active" id="all"  data-filter="*">All</li> -->
                    <!--  <li class="btn btn-outline-primary m-1" id="kran" data-filter=".kran">Kran</li>
                     <li class="btn btn-outline-primary m-1" id="shower" data-filter=".shower">Shower</li>
                     <li class="btn btn-outline-primary m-1" id="wastafel" data-filter=".wastafel">Wastafel</li>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="col-sm-10">
-               <div class="row mx-1 portfolio-container">
+             <div class="row mx-1 portfolio-container">
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item kran">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="<?= base_url('assets/produk/produk kitchen/Blanco Subline 700U.jpeg') ?>" alt="Card image cap">
@@ -106,14 +106,14 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="<?= base_url('assets/produk/produk kitchen/Kitchen Sink Kohler Tocatta.jpeg') ?>" alt="Card image cap">
                     <div class="card-body">
-                     <p class="card-text" style="font-weight: bold; text-align: center;">Kitchen Sink Kohler Tocatta</p>
+                       <p class="card-text" style="font-weight: bold; text-align: center;">Kitchen Sink Kohler Tocatta</p>
 
-                     <a href=""  class="btn btn-danger btn-block"><i class="fa-solid fa-bag-shopping"></i> Beli</a>
-                 </div>
-             </div>
-         </div>
+                       <a href=""  class="btn btn-danger btn-block"><i class="fa-solid fa-bag-shopping"></i> Beli</a>
+                   </div>
+               </div>
+           </div>
 
-         <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item kran">
+           <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item kran">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="<?= base_url('assets/produk/produk kitchen/Kitchen Sink Grohe K700U.jpeg') ?>" alt="Card image cap">
                 <div class="card-body">
@@ -157,15 +157,15 @@
     $(document).ready(function(){
 
         $("#all").click(function(){
-           $("#m_all").show();
-           $("#m_kran").hide();
-           $("#m_shower").hide();
-           $("#m_wastafel").hide();
-           $("#m_closed").hide();
-           $("#m_bathtub").hide();
+         $("#m_all").show();
+         $("#m_kran").hide();
+         $("#m_shower").hide();
+         $("#m_wastafel").hide();
+         $("#m_closed").hide();
+         $("#m_bathtub").hide();
 
 
-       })
+     })
 
         $("#kran").click(function(){
 
@@ -190,13 +190,13 @@
 
 
         $("#wastafel").click(function(){
-         $("#m_wastafel").show();
-         $("#m_shower").hide();
-         $("#m_kran").hide();
-         $("#m_closed").hide();
-         $("#m_bathtub").hide();
-         $("#m_all").hide();
-     })
+           $("#m_wastafel").show();
+           $("#m_shower").hide();
+           $("#m_kran").hide();
+           $("#m_closed").hide();
+           $("#m_bathtub").hide();
+           $("#m_all").hide();
+       })
 
 
         $("#bathtub").click(function(){

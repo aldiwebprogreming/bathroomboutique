@@ -221,7 +221,7 @@
             <!-- Bathtub -->
             <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item bathtub">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="<?= base_url('assets/produk/bathtub/b4.jpg') ?>" alt="Card image cap">
+                    <img class="card-img-top" src="<?= base_url('assets/produk/bathtub/1.jpg') ?>" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href=""  class="btn btn-danger btn-block"><i class="fa-solid fa-bag-shopping"></i> Beli</a>
@@ -231,7 +231,7 @@
 
             <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item bathtub">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="<?= base_url('assets/produk/bathtub/b2.jpg') ?>" alt="Card image cap">
+                    <img class="card-img-top" src="<?= base_url('assets/produk/bathtub/2.jpg') ?>" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href=""  class="btn btn-danger btn-block"><i class="fa-solid fa-bag-shopping"></i> Beli</a>
@@ -240,7 +240,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item bathtub">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="<?= base_url('assets/produk/bathtub/b3.jpg') ?>" alt="Card image cap">
+                    <img class="card-img-top" src="<?= base_url('assets/produk/bathtub/3.jpg') ?>" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href=""  class="btn btn-danger btn-block"><i class="fa-solid fa-bag-shopping"></i> Beli</a>
@@ -251,7 +251,7 @@
             <!-- Closet -->
             <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item closet">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="<?= base_url('assets/produk/closet/1.jpeg') ?>" alt="Card image cap">
+                    <img class="card-img-top" src="<?= base_url('assets/produk/closet/Closet San Raphael Grande.jpg') ?>" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href=""  class="btn btn-danger btn-block"><i class="fa-solid fa-bag-shopping"></i> Beli</a>
@@ -261,7 +261,7 @@
 
             <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-0 portfolio-item closet">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="<?= base_url('assets/produk/closet/12.jpeg') ?>" alt="Card image cap">
+                    <img class="card-img-top" src="<?= base_url('assets/produk/closet/Closet Electric Eir.jpg') ?>" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href=""  class="btn btn-danger btn-block"><i class="fa-solid fa-bag-shopping"></i> Beli</a>

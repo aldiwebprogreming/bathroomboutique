@@ -17,8 +17,12 @@ class Bathroom extends CI_Controller{
 
 	function produk(){
 
+		$data['merek'] = $this->db->get('tbl_merek')->result_array();
+		$data['jenis_sub_kategori'] = $this->db->get('tbl_jenis_sub_kategori')->result_array();
+
+
 		$this->load->view('template/header');
-		$this->load->view('landing/produk');
+		$this->load->view('landing/produk', $data);
 		$this->load->view('template/footer');
 	}
 

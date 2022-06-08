@@ -51,5 +51,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'bathroom';
 $route['404_override'] = '';
-$route['translate_uri_dashes'] = true;
+$route['translate_uri_dashes'] = TRUE;
+
+
+$route['admin/edit_produk/(:any)'] = 'admin/edit-produk/$1';
+$route['admin/edit_kategori/(:any)'] = 'admin/edit-kategori/$1';
+$route['admin/edit_sub_kategori/(:any)'] = 'admin/edit-sub-kategori/$1';
+$route['admin/edit_jenis_sub_kategori/(:any)'] = 'admin/edit-jenis-sub-kategori/$1';
+
 

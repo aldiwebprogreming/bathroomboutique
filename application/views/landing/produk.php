@@ -41,70 +41,16 @@
 
         <div class="row">
             <div class="col-sm-2">
-                Pilih Berdaserkan Jenis Produk
+                Pilih Berdasarkan Jenis Produk
                 <hr>
 
                 <div id="p_all">
                     <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">- Kran Wastafel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Kran Bathtub</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Kran Shower</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Kran Dapur</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">- Shower Sistem</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Shower Set</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Hand Shoewr</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Bidet</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">- Undercounter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Counter Top</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Pedestal</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Wall Hung</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">- Free Standing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Tanam</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">- Elektrik</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- One Piece</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Two Piece</a>
-                        </li>
-
+                        <?php foreach ($jenis_sub_kategori as $data) { ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">- <?= $data['name_jenis_sub_kategori'] ?></a>
+                            </li>
+                        <?php } ?>
 
                     </ul>
                 </div>
@@ -136,7 +82,7 @@
                             <a class="nav-link" href="#">- Shower Set</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">- Hand Shoewr</a>
+                            <a class="nav-link" href="#">- Hand Shower</a>
                         </li>
 
                         <li class="nav-item">
@@ -159,6 +105,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link" href="#">- Vessel</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="#">- Wall Hung</a>
                         </li>
 
@@ -173,6 +123,14 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">- Tanam</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">- Whirpool Freestanding</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">- Whirpool Tanam</a>
                         </li>
 
                     </ul>
@@ -190,6 +148,10 @@
                             <a class="nav-link" href="#">- Two Piece</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">- Wall Hung</a>
+                        </li>
+
                     </ul>
                 </div>
                 <hr>
@@ -198,23 +160,10 @@
 
                 <div id="m_all" style="">
                     <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">- Grohe</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Kohler</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Kolpa</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Knief</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">- Duravit</a>
-                        </li>
+                        <?php foreach ($merek as $data) { ?>
+                            <a class="nav-link" href="#">- <?= $data['name_merek'] ?></a>
+                        <?php } ?>
 
                     </ul>
                 </div>
@@ -275,7 +224,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="#">- Grohe</a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">- Kohler</a>
                         </li>
